@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+    <title>Student Enrollment From</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off" >
+                    <div>
+                        <label>Name</label>
+                        <input type="text"  id="Name">
+                    </div>
+                    <div>
+                        <label>Email</label>
+                        <input type="text"  id="Email">
+                    </div>
+                    <div>
+                        <label>Website</label>
+                        <input type="text"  id="Website">
+                    </div>
+                    <div>
+                        <label>Gender</label>
+                        <input type="text"  id="Gender">
+                    </div>
+                    <div>
+                        <label>Skills</label>
+                        <input type="text"  id="Skills">
+                    </div>
+                <div class="">
+                    <button type="submit" onClick="formSubmit()">Enroll Student</button>
+                    <button type="reset">clear</button>                   
+               </div>
+                </form>
+                <td>
+                    <table class="list" id="StudentList">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Email</th>
+                                <th>Website</th>
+                                <th>Image</th>
+                                <th>Gender</th>
+                                <th>Skills</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+            </td>
+        </tr>
+    </table>
+    
+</body>
+</html>
